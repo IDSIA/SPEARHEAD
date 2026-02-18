@@ -10,9 +10,7 @@ This repository contains the source code produced within the Innosuisse Flagship
 ### Web app (D2.4)
 The `SPEARHEAD-webapp/` directory contains the code and assets for the web-based interface used to interactively explore the trained resistance prediction models.
 
-### Manuscript analyses (D2.6)
-The analysis code (scripts, notebooks, and supporting utilities) reproduces the experiments and results reported in the manuscript on EHR-based antibiotic resistance prediction.
+Web interface: https://christian-berchtold-spearhead.share.connect.posit.cloud/
 
-## Links
-- Web interface: https://christian-berchtold-spearhead.share.connect.posit.cloud/
-- Repository: https://github.com/IDSIA/SPEARHEAD
+### Manuscript analyses (D2.6)
+The `SPEARHEAD-manuscript/` directory contains the analysis code (scripts, notebooks, and supporting utilities) used to reproduce the experiments and results reported in the manuscript on EHR-based antibiotic resistance prediction. The figures of the manuscript are also included in this directory.
