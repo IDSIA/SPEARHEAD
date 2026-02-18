@@ -15,5 +15,5 @@ https://christian-berchtold-spearhead.share.connect.posit.cloud/
 
 ### Manuscript analyses (D2.6)
 
-The `SPEARHEAD-manuscript/` directory contains the analysis code (scripts, notebooks, and supporting utilities) used to conduct the analyses reported in the manuscript on EHR-based antibiotic resistance prediction (planned for submission to *The Lancet Microbe* at the end of March 2026). The manuscript figures are also included in this directory.
+The `SPEARHEAD-manuscript/` directory contains the analysis code (scripts and supporting utilities) used to conduct the analyses reported in the manuscript on EHR-based antibiotic resistance prediction (planned for submission to *The Lancet Microbe* at the end of March 2026). The manuscript figures are also included in this directory.
 
