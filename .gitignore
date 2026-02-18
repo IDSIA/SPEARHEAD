@@ -2,6 +2,7 @@
 .venv
 *.egg-info
 .history
+.ipynb_checkpoints/
 __pycache__/
 **/__pycache__/
 *.pyc
