@@ -1,0 +1,93 @@
+Database Variable Name,Clinical Name ,Notes
+age,Age (years),
+sex,Sex,
+sex_männlich,Male ,(n/%)
+pregnancy_yn,Pregnancy,(n/%)
+case_type_ambulant,Outpatient episode,(n/%)
+case_type_A,Outpatient episode,(n/%)
+case_type_teil_stationär,Day-case admission,(n/%)
+case_type_TS,Day-case admission,(n/%)
+prev_exp_1W,Antibiotic exposure within 1 week,(n/%)
+prev_exp_2W,Antibiotic exposure within 2 weeks,(n/%)
+prev_exp_1M,Antibiotic exposure within 1 month,(n/%)
+prev_exp_6M,Antibiotic exposure within 6 months,(n/%)
+prev_exp_1Y,Antibiotic exposure within 1 year,(n/%)
+prev_exp_ALL,Any previous antibiotic exposure,(n/%)
+had_prev_resistance,Previous resistant isolate,(n/%)
+multiple_occurences_prev_resistance (>2),Recurrent resistant isolates  (>2),(n/%)
+diabetus_mellitus,Diabetes mellitus (n/%),(n/%)
+risk_diabetes_any,Diabetes mellitus,(n/%)
+hypertension_disease,Hypertension (n/%),(n/%)
+risk_hypertension_any,Hypertension,(n/%)
+penicillin_allergies,Penicillin allergy (n/%),(n/%)
+risk_penicillin_allergies_any,Penicillin allergy,(n/%)
+rare_disease,History of rare disease (Orphanet classification) ,(n/%)
+risk_charlson_score,Charlson comorbidity index,Do we have the score or is it reported binary? 
+cystitis,Cystitis,(n/%)
+risk_cystitis_30d,Cystitis within 30 days,(n/%)
+risk_chronic_cystitis_interstitial_any,Chronic interstitial cystitis,(n/%)
+risk_chronic_cystitis_other_any,Other chronic cystitis,(n/%)
+risk_dysuria_30d,Dysuria within 30 days,(n/%)
+pyelonephritis_or_renal_tubulo,Pyelonephritis or renal tubular infection,(n/%)
+risk_pyelonephritis_or_renal_tubulo_30d,Pyelonephritis within 30 days,(n/%)
+risk_chronic_pyelonephritis_any,Chronic pyelonephritis,(n/%)
+urosepsis,Urosepsis,(n/%)
+risk_urosepsis_30d,Urosepsis within 30 days,(n/%)
+risk_inflammatory_disease_of_prostate_30d,Prostatitis within 30 days,(n/%)
+risk_bacteria_virus_infections_30d,Bacterial or viral infection within 30 days,(n/%)
+indwelling_foley_catheter,Indwelling urinary catheter,Can be gruoped as Any catheter or  Any catheter within 30 days
+risk_indwelling_foley_catheter_30d,Indwelling urinary catheter within 30 days,
+suprapubic_catheter,Suprapubic catheter,
+risk_suprapubic_catheter_30d,Suprapubic catheter within 30 days,
+risk_urostomy_30d,Urostomy within 30 days,
+risk_ileal_conduit_30d,Ileal conduit within 30 days,
+operations_kidney,Kidney surgery,Can be gruoped as Any urethral surgery OR Any urethral surgery within 30 days
+risk_operations_kidney_30d,Kidney surgery within 30 days,
+operations_ureter,Ureteric surgery,
+risk_operations_ureter_30d,Ureteric surgery within 30 days,
+operations_urinary_bladder,Bladder surgery,
+risk_operations_urinary_bladder_30d,Bladder surgery within 30 days,
+operations_urethra,Urethral surgery,
+risk_operations_urethra_30d,Urethral surgery within 30 days,
+other_operations_urinary_tract,Other urinary tract procedures,
+risk_other_operations_urinary_tract_30d,Other urinary tract procedures within 30 days,
+risk_urinary_tract_surgery_30d,Urinary tract surgery within 30 days,
+risk_lithotripsy_ultrasound_30d,Lithotripsy within 30 days,(n/%)
+operations_male_reproductive_organs,Male reproductive organ surgery,(n/%)
+risk_operations_male_reproductive_organs_30d,Male reproductive organ surgery within 30 days,(n/%)
+risk_operations_female_genital_organs_30d,Female genital organ surgery within 30 days,(n/%)
+risk_discharge_30_days_unknown,Discharge status unknown within 30 days,(n/%)
+risk_discharge_30_days_still_admitted,Still admitted within 30 days,(n/%)
+urine_material_Mittelstrahlurin,Midstream urine sample,(n/%)
+urine_material_Urin_aus_Blasenpunktion,Suprapubic aspiration,(n/%)
+urine_material_Urin_aus_Dauerkatheter,Urine from indwelling catheter,(n/%)
+urine_material_Urin_aus_Einmalkatheter,Urine from single-use catheter,(n/%)
+urine_material_Urin_in_Urotube,Urotube urine sample,(n/%)
+urine_material_Urin_nicht_genauer_bezeichnet,Unspecified urine sample,(n/%)
+urine_material_Urin__Urostoma,Urine from urostomy,(n/%)
+urine_material_Urinsäckchen,Urine collection bag sample,(n/%)
+urine_mic_ph,Urine pH,It shall appear that this is from Urine Dipstick.
+urine_dipstick_ph,Urine pH,
+urine_mic_spez_gewicht,Urine specific gravity,
+urine_dipstick_spez_gewicht,Urine specific gravity,
+urine_mic_nitrites,Positive urinary nitrites,
+urine_mic_leucocytes,Positive urinary leukocytes,
+urine_mic_hemoglobin,Haematuria,
+urine_mic_glucose,Glycosuria,
+urine_mic_bilirubin,Bilirubinuria,
+urine_mic_ketokorper,Ketonuria,
+urine_flowcyt_bacteria,Urinary bacterial count (flow cytometry),?
+urine_flowcyt_leucocytes,Urinary leukocyte count (flow cytometry),?
+urine_flowcyt_leucocytesprogf,Urinary leukocytes per high-power field,?
+urine_flowcyt_erythrocytes,Urinary erythrocyte count (flow cytometry),?
+urine_flowcyt_erythrocytesprogf,Urinary erythrocytes per high-power field,?
+crp,C-reactive protein (mg/L),?
+blood_crp__mg_l_,C-reactive protein (mg/L),It shall appear that this is from blod.
+pct,Procalcitonin µg/L ,
+blood_leucocytes,Leukocyte count G/L (×10^9/L),
+blood_neutrophiles,Neutrophil percentage %,
+blood_neutrophiles_abs,Absolute neutrophil count G/L (×10^9/L),
+blood_erythrocytes,Erythrocyte count T/L (×10^12/L),
+blood_hemoglobin,Haemoglobin g/L,
+blood_hematocrite,Haematocrit L/L,
+blood_thrombocytes,Platelet count G/L (×10^9/L),
